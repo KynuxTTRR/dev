@@ -9,7 +9,7 @@ export function useSeoProps(
 	const router = useRouter();
 
 	const title = 'nuro ─ developer';
-	const description = "Hey 👋 I'm Ben, a developer";
+	const description = "Hey 👋 I'm Berk, a developer";
 
 	return {
 		title,
@@ -18,8 +18,8 @@ export function useSeoProps(
 		openGraph: {
 			title,
 			description,
-			site_name: 'nuro',
-			url: `https://nuro.dev/${router.asPath}`,
+			site_name: 'kynux',
+			url: `kynux.vercel.app/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
